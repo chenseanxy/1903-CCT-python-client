@@ -17,4 +17,4 @@ with open(json, mode="r", encoding="utf-8") as f:
         s.connect((sys.argv[1], 5600))
         s.send(bytes(line, "utf-8"))
         s.close()
-        time.sleep(0.01)
+        # time.sleep(0.01)
