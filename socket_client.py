@@ -30,7 +30,7 @@ def run(lines, numThreads, threadID):
         # time.sleep(0.01)
 
 
-numThreads = 10
+numThreads = sys.argv[2]
 threads = []
 
 for threadID in range(numThreads):
